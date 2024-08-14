@@ -1,0 +1,9 @@
+{
+  "build": {
+    "docker": {
+      "context": ".",
+      "dockerfile": "Dockerfile"
+    }
+  },
+  "start": "dotnet APIDocker.dll"
+}
